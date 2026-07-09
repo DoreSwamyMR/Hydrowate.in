@@ -37,8 +37,31 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+<style>
+  .whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25D366;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
+  .whatsapp-float i {
+    margin: 0; /* remove margin-top */
+  }
+</style>
 <body class="index-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
@@ -1298,11 +1321,18 @@ Our innovative approach eliminates conventional blowers and diffusers, deliverin
 
   <!-- Scroll Top -->
   <!--<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>-->
-  <a href="https://wa.me"  target="_blank" class="scroll-top d-flex align-items-center justify-content-center" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a>
+  <!--<a href="https://wa.me"  target="_blank" class="scroll-top d-flex align-items-center justify-content-center" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a>-->
   <!-- WhatsApp Floating Button -->
 <!--<a href="https://wa.me" target="_blank" class="whatsapp-float d-flex align-items-center justify-content-center" rel="noopener noreferrer">
   <i class="bi bi-whatsapp"></i>
 </a>-->
+<!-- WhatsAPP ICON-->
+<a href="https://wa.me/1234567890" target="_blank"
+   class="whatsapp-float scroll-top d-flex align-items-center justify-content-center"
+   rel="noopener noreferrer">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+<!-- WhatsAPP ICON--END >
 
 
   <!-- Preloader -->
