@@ -86,6 +86,7 @@
       top: 0,
       behavior: 'smooth'
     });
+    window.open('https://wa.me/919886362470?text=Hello%20Hydrowate%20Team', '_blank');
   });
 
   window.addEventListener('load', toggleScrollTop);
